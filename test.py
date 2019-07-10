@@ -20,9 +20,9 @@ def generate_world(max_hight, max_width: int):
     # print(world)
 
 
-win = pyglet.window.Window(width=1920, height=1080, fullscreen=True)
-dirt = pyglet.resource.image("dirt.png")
-player_img = pyglet.resource.image("player_blip.png")
+win = pyglet.window.Window(width=800, height=600, fullscreen=False)
+dirt = pyglet.resource.image("assets/dirt.png")
+player_img = pyglet.resource.image("assets/player_blip.png")
 player = {"x": win.width // 2, "y": win.height // 2}
 
 
